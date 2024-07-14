@@ -1,0 +1,62 @@
+.registration {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.registration h2 {
+  text-align: center;
+  /* Removed background-color to allow image to show */
+  border-radius: 2px;
+  padding: 40px;
+  background-image: url("../Assets/istockphoto-1164867743-612x612.jpg"); /* Replace with desired image URL */
+  background-repeat: no-repeat; /* Prevent image tiling */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Stretch image to fill the container */
+  background-color: rgba(200, 195, 195, 0.8);
+}
+
+.form_registration {
+  display: flex;
+  flex-direction: column;
+}
+
+.label_registration {
+  margin-bottom: 15px;
+}
+
+.label_registration label {
+  display: flex;
+  font-weight: 400;
+  color: #535151;
+  align-self: flex-start;
+}
+
+.label_registration input[type="text"],
+.label_registration input[type="email"],
+.label_registration input[type="number"],
+.label_registration input[type="date"],
+.label_registration input[type="submit"] {
+  width: calc(
+    100% - 22px
+  ); /* Adjusted width to account for padding and border */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px auto; /* Adjusted margin to center horizontally */
+}
+
+.label_registration input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.label_registration input[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

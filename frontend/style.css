@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+ul {
+  list-style-type: none;
+}
+.details-header > button {
+  background-color: #cdfadb;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: larger;
+}
+img.head {
+  height: 25px;
+}
+.details-header {
+  display: flex;
+  gap: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 5px;
+}
+.dashboard {
+  display: flex;
+  align-items: center;
+}
+.app-name {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: larger;
+}
+img.trophy {
+  height: 80px;
+  width: 70px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.body {
+  margin: 20px;
+}
+.tag-line {
+  font-size: x-large;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  padding: 10px;
+}
+.socialmedia {
+  display: flex;
+  gap: 10px;
+}
+.header-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: none;
+}
+.orange {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.socialmedia > button {
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+}
+.insta {
+  height: 25px;
+  width: 25px;
+  border: 1px solid none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.about-me {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.dash {
+  background-color: transparent;
+}
+.head {
+  background-color: transparent;
+}
+.user {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.form {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: auto;
+  background: color #f0f0f0;
+  border: 3px solid black;
+  border-radius: 4px;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.home {
+  background-color: white;
+}
+input {
+  height: 20px;
+  width: 200px;
+  margin-top: 0px;
+}
+.submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  gap: 4px;
+}
+.submit > button {
+  background-color: black;
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+}
+.required {
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+  color: white;
+  text-align: center;
+}
+.form > h2 {
+  text-align: center;
+}
+.mail {
+  padding-top: 10px;
+}
+.titleH2 {
+  position: absolute !important;
+  top: -55px;
+  left: 20px;
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 82vh;
+}
+.required {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.form > p {
+  margin-bottom: 0px;
+}
+.dummy {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+.nummy {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.sportsfolio-logo {
+  height: 40px;
+}
+.header-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.body {
+  padding: 80px 0;
+  background-color: #f5f5f5;
+  min-height: calc(100vh - 60px); /* Account for fixed header height */
+  display: flex; /* Allow vertical centering */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%; /* Ensure container fills available space */
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth button hover effect */
+}
+
+.btn.btn-primary {
+  background-color: #222; /* Customize primary button color */
+  color: #fff;
+}
+
+.btn.btn-primary:hover {
+  background-color: #1a1a1a; /* Darken primary button on hover */
+}
+
+.btn.btn-secondary {
+  background-color: #ddd; /* Customize secondary button color */
+  color: #222;
+}
+
+.btn.btn-secondary:hover {
+  background-color: #ccc; /* Darken secondary button on hover */
+}
+.features {
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Arrange features horizontally */
+  flex-wrap: wrap; /* Allow features to wrap on smaller screens */
+  justify-content: space-around; /* Distribute features evenly */
+}
+
+.features li {
+  width: 30%; /* Adjust width for responsive layout */
+  margin: 15px;
+  text-align: center;
+}
+
+.features li i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #222; /* Customize feature icon color */
+}
+
+.features li h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.features li p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .features li {
+    width: 45%; /* Adjust width for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .features li {
+    width: 100%; /* Display features on top of each other on extra small screens */
+  }
+
+  .hero h1 {
+    font-size: 2.5em; /* Adjust heading size for smaller screens */
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff; /* Light background for better contrast */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  position: absolute; /* Position absolutely to center */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  width: 300px; /* Set a maximum width */
+}
+
+.login-form h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  text-align: center; /* Center text alignment */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.login-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: #1a1a1a;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.login-form {
+  border: 3px solid black;
+  border-radius: 4px;
+}
+.adjust {
+  align-items: center;
+  margin-top: 5px;
+}
+.typewriter {
+  display: inline-block;
+}
+.text {
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  color: aqua;
+  animation: typing 2s, cursor 0.3s step-end infinite alternate;
+}
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+.text-color {
+  color: red;
+}
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+.box1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./src/Assets/moon-4919501_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+}
+.box2 {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./src/Assets/empty.jpg);
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  color: black;
+}
+.functional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.cards {
+  margin: 30px;
+  width: 280px;
+  padding: 10px;
+}
+.cards > img {
+  height: 180px;
+  width: 280px;
+  border-radius: 5%;
+}
+.data {
+  width: 420px;
+  flex-wrap: wrap;
+  margin: 8px;
+}
+.cards {
+  border-radius: 5%;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+.tut {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: #1a1a1a;
+}
+.delete {
+  background-color: red;
+  color: white;
+  margin: 4px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.sportimage > img {
+  object-fit: cover;
+  border: 1px dotted snow;
+  border-radius: 2%;
+  width: 100vh;
+  margin-left: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.details {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.empty {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: x-large;
+  color: black;
+  margin: 7px;
+}
+.emptybutton {
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+.player-list {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+}
+.klopp {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: x-large;
+}
