@@ -8,7 +8,7 @@ function Update() {
   const [sport, setSport] = useState("");
   const [email, setEmail] = useState("");
   const [participants, setParticipants] = useState(0);
-  const [tagline, setTagline] = useState("");
+  const [tageline, setTagline] = useState("");
   const [venue, setVenue] = useState("");
   const [application_open, setApplication_open] = useState("");
   const [application_close, setApplication_close] = useState("");
