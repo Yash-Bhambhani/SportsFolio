@@ -37,7 +37,7 @@ const HostCard = () => {
               <h2 className="name">{home.sport}</h2>
               <h3>Hosted by: {home.name}</h3>
               <h3>
-                Tagline: <b>{home.tageline}</b>
+                Tagline: <b>{home.tagline}</b>
               </h3>
               <h3>Venue: {home.venue}</h3>
             </div>

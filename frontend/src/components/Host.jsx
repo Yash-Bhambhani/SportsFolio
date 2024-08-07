@@ -52,7 +52,7 @@ const Host = () => {
               <h2 className="name">{home.sport}</h2>
               <h3>Hosted by: {home.name}</h3>
               <h3>
-                Tagline: <b>{home.tageline}</b>
+                Tagline: <b>{home.tagline}</b>
               </h3>
               <h3>Venue: {home.venue}</h3>
               <button
@@ -64,11 +64,12 @@ const Host = () => {
               </button>
               <button
                 className="delete"
-                onClick={() =>
+                onClick={() => {
+                  // console.log(home);
                   navigate("/landingpage/update", {
                     state: { id: home },
-                  })
-                }
+                  });
+                }}
                 style={{ cursor: "pointer" }}
               >
                 Update
